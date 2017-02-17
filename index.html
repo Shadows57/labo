@@ -1,36 +1,77 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta charset="utf-8">
-    <title>## LABO // SKRUWCH ##</title>
+    <meta charset="UTF-8">
+    <title>CV DE SKRUWCH // DEVELOPPEUR WEB FRONT-END</title>
+    <link rel="stylesheet" href="assets/css/knacss.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><a href="#">.h..</a></li>
-        <li><a href="#">...</a></li>
-        <li><a href="#">...</a></li>
-      </ul>
-    </nav>
-
-    <div id="page">
-      <div id="contenu_page">
-
+    <!-- #CONTAINER-TOP, #TOP -->
+    <!-- Affichage du logo, pseudo et un petit texte -->
+    <div id="container-top" class="ptb-xl">
+      <div id="top" class="large-w66 medium-w60 small-w90 tiny-w95 center">
+        <h3 class="man">SKRUWCH</h3>
+        <p>DEVELOPPEUR WEB FRONT-END</p>
       </div>
     </div>
-  </body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.4.0/velocity.min.js"></script>
-  <script>
-    $(window).scroll(function() {
-      if($(window).scrollTop() > 0) {
-        $("nav").addClass("nav_scrolled");
-      } else {
-        $("nav").removeClass("nav_scrolled");
-      }
-    })
-  </script>
+    <!-- #CONTAINER-ABOUT, #ABOUT -->
+    <!-- Petit résumé sur moi et mes compétences -->
+    <div id="container-about" class="ptb-l">
+      <div id="about" class="large-w66 medium-w60 small-w90 tiny-w95 center">
+        <h3>A propos</h3>
+        <p>Mon pseudo est Skruwch et je suis un jeune développeur web front end de 14ans et je vous propose <b>gratuitement</b> mes services de développement web front-end.</p>
+        <p>J'ai commencé le développement de sites internet il y a maintenant 3 ans sur différents sites internet et maintenant avec le temps et l'entrainement j'ai réussi a acquérir un assez bon niveau dans différents langages comme le <b>HTML</b>, le <b>CSS</b> et le <b>Javascript</b></p>
+      </div>
+    </div>
+
+    <!-- #CONTAINER-PORTFOLIO, #PORTFOLIO, #GRID-PORTFOLIO, .BLOC-PORTFOLIO -->
+    <!-- Affichage des mes anciens travaux + mise en place d'une grille de 2 éléments par ligne -->
+    <div id="container-portfolio" class="ptb-l">
+      <div id="portfolio" class="large-w66 medium-w60 small-w90 tiny-w95 center">
+        <h3 class="mbl txtcenter">Mes derniers travaux</h3>
+
+        <div id="grid-portfolio" class="grid-2 has-gutter-xl">
+          <div class="bloc-portfolio"><img src="assets/img/img-portfolio-1.png"></div>
+          <div class="bloc-portfolio"><img src="assets/img/img-portfolio-2.png"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- #CONTAINER-CONTACT, #CONTACT -->
+    <!-- Affichage des différents moyens de communication sur lesquels on peut me contacter -->
+    <div id="container-contact" class="ptb-l">
+      <div id="contact" class="large-w66 medium-w60 small-w90 tiny-w95 center txtcenter">
+        <h3>Me contacter</h3>
+        <a href="#"><img alt="discord logo" src="assets/img/discord-logo.png"> <br>Skruwch#16895</a>
+      </div>
+    </div>
+
+    <footer class="ptb-l">
+      <div id="footer" class="large-w66 medium-w60 small-w90 tiny-w95 center">
+        <div id="grid-footer" class="grid-3 has-gutter-xl">
+          <div class="bloc-footer">
+            <h3><b>Liens utiles</b></h3>
+            <ul>
+              <li><a href="#">>  Twitter</a></li>
+              <li><a href="#">>  Facebook</a></li>
+              <li><a href="#">>  Youtube</a></li>
+            </ul>
+          </div>
+
+          <div class="bloc-footer">
+            <h3><b>Me contacter</b></h3>
+            <ul>
+              <li><a href="#">>  Discord</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT JS POUR AFFICHER LES SCREENS PORTFOLIO EN ENTIER AU CLIC -->
+  </body>
 </html>

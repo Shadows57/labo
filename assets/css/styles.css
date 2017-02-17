@@ -1,0 +1,40 @@
+h3, p, a { font-family: 'Raleway', sans-serif; }
+h3 { font-size: 3rem; }
+
+/* ### */
+
+#container-top { background: #41434c; border-bottom: 5px solid #373f40; }
+
+#top h3, #top p { text-shadow: 0px 1px 0px black; }
+#top h3 { font-size: 4.5rem; color: #67bc56; }
+#top p { font-size: 2.6rem; color: white; }
+
+/* ### */
+
+#container-about { background: #f1f1f1; border-bottom: 2px solid #ddd; }
+
+/* ### */
+
+.bloc-portfolio {
+  border: 1px solid #ddd;
+  margin-bottom: 3rem;
+  border-radius: 3px;
+}
+.bloc-portfolio.last { margin-bottom: 0rem; }
+
+/* ### */
+
+#container-contact { background: #67bc56; }
+#contact h3 { color: #f1f1f1; text-shadow: 0px 1px 0px black; }
+#contact a { font-size: 1.8rem; color: #f1f1f1; text-decoration: none; text-shadow: 0px 1px 0px black; }
+
+/* ### */
+
+footer { background: #41434c; border-top: 5px solid #373f40; }
+footer h3, footer a { text-shadow: 0px 1px 0px black; }
+footer h3 { font-size: 2rem; color: #67bc56; }
+footer ul { padding: 0px; }
+footer li { display: block; font-size: 1.8rem; }
+footer a { text-decoration: none; color: #a4bdbf; }
+
+footer a:hover { color: #67bc56; }
